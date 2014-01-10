@@ -4,5 +4,5 @@ Feature: Main page functionality
 
   Scenario: Open search page
 	Given "firefox" browser
-	When navigate to "http://google.com"
+	When navigate to "http://google.by"
 	Then page appears with title "Google"

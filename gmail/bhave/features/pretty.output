@@ -1,0 +1,17 @@
+@browser=firefox
+Feature: Main page functionality # google.feature:2
+  Perform base actions check
+  Scenario: Open search page              # google.feature:5
+    Given "firefox" browser               # steps/google.py:7
+    When navigate to "http://google.by"   # steps/google.py:11
+    Then page appears with title "Google" # steps/google.py:15
+      Traceback (most recent call last):
+        File "/Users/kiryl_zayets/Dropbox/Python/selenium/env/lib/python3.3/site-packages/behave/model.py", line 1037, in run
+          match.run(runner.context)
+        File "/Users/kiryl_zayets/Dropbox/Python/selenium/env/lib/python3.3/site-packages/behave/model.py", line 1430, in run
+          self.func(context, *args, **kwargs)
+        File "steps/google.py", line 17, in verify
+          assert context.browser.title == 'privet'
+      AssertionError
+
+
