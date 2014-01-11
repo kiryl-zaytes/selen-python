@@ -13,10 +13,11 @@
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/grid$config.coverage" NAME="config Coverage Results" MODIFIED="1389360914200" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/grid$nose_pyt.coverage" NAME="nose_multy Coverage Results" MODIFIED="1389433400683" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/grid$nose_single.coverage" NAME="nose_single Coverage Results" MODIFIED="1389378692972" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/grid$nose_pyt.coverage" NAME="nose_multy Coverage Results" MODIFIED="1389434312607" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/grid$nose_single.coverage" NAME="nose_single Coverage Results" MODIFIED="1389434352944" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/grid$face_page.coverage" NAME="face_page Coverage Results" MODIFIED="1389360933047" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
     <SUITE FILE_PATH="coverage/grid$nose.coverage" NAME="nose Coverage Results" MODIFIED="1389259101835" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/grid$entry_point.coverage" NAME="entry_point Coverage Results" MODIFIED="1389441287722" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -33,31 +34,10 @@
       <file leaf-file-name="face_page.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tests/face_page.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="62" column="27" selection-start="1471" selection-end="1471" vertical-scroll-proportion="0.0" vertical-offset="427" max-vertical-offset="1428">
+            <state line="62" column="27" selection-start="1471" selection-end="1471" vertical-scroll-proportion="0.0" vertical-offset="974" max-vertical-offset="1428">
               <folding>
                 <element signature="e#0#14#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ghostdriver.log" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ghostdriver.log">
-          <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
-            <state />
-          </provider>
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="0" selection-start="1459" selection-end="1459" vertical-scroll-proportion="-0.0" vertical-offset="126" max-vertical-offset="273">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="google.log" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/google.log">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="126">
-              <folding />
             </state>
           </provider>
         </entry>
@@ -66,24 +46,6 @@
         <entry file="file://$PROJECT_DIR$/tests/__init__.py">
           <provider selected="true" editor-type-id="text-editor">
             <state line="1" column="0" selection-start="28" selection-end="28" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="147">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="assert_that.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../../env/lib/python3.3/site-packages/hamcrest/core/assert_that.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="4" selection-start="350" selection-end="350" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1428">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="logger.ini" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/logger.ini">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="42" column="25" selection-start="725" selection-end="725" vertical-scroll-proportion="0.0" vertical-offset="539" max-vertical-offset="1029">
               <folding />
             </state>
           </provider>
@@ -100,11 +62,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="nosetests.xml" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/nosetests.xml">
+      <file leaf-file-name="entry_point.py" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/entry_point.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="369">
-              <folding />
+            <state line="8" column="0" selection-start="337" selection-end="337" vertical-scroll-proportion="0.37004405" vertical-offset="0" max-vertical-offset="454">
+              <folding>
+                <element signature="e#0#11#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -112,16 +76,16 @@
       <file leaf-file-name="_pydev_execfile.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_execfile.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="36" column="0" selection-start="1164" selection-end="1164" vertical-scroll-proportion="0.0" vertical-offset="359" max-vertical-offset="882">
+            <state line="36" column="0" selection-start="1164" selection-end="1164" vertical-scroll-proportion="0.0" vertical-offset="382" max-vertical-offset="882">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="builtins.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/Library/Caches/PyCharm30/python_stubs/1607977901/builtins.py">
+      <file leaf-file-name="util.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../../env/lib/python3.3/site-packages/nose/util.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2078" column="18" selection-start="73776" selection-end="73786" vertical-scroll-proportion="0.0" vertical-offset="42532" max-vertical-offset="117936">
+            <state line="373" column="0" selection-start="11181" selection-end="11181" vertical-scroll-proportion="0.0" vertical-offset="7499" max-vertical-offset="13692">
               <folding />
             </state>
           </provider>
@@ -143,6 +107,8 @@
         <option value="$PROJECT_DIR$/tests/face_page2.py" />
         <option value="$PROJECT_DIR$/tests/__init__.py" />
         <option value="$PROJECT_DIR$/tests/face_page.py" />
+        <option value="$PROJECT_DIR$/report/nosetests.xml" />
+        <option value="$PROJECT_DIR$/entry_point.py" />
       </list>
     </option>
   </component>
@@ -234,7 +200,28 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.nose_multy">
+  <component name="RunManager" selected="Python.entry_point">
+    <configuration default="false" name="entry_point" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="grid" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/entry_point.py" />
+      <option name="PARAMETERS" value="" />
+      <RunnerSettings RunnerId="PyDebugRunner" />
+      <RunnerSettings RunnerId="PythonRunner" />
+      <ConfigurationWrapper RunnerId="PyDebugRunner" />
+      <ConfigurationWrapper RunnerId="PythonRunner" />
+      <method />
+    </configuration>
     <configuration default="true" type="DjangoTestsConfigurationType" factoryName="Django tests">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -405,7 +392,7 @@
       <module name="grid" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../../env/bin/nosetests-3.3" />
-      <option name="PARAMETERS" value="tests/face_page.py -v --processes=3 --process-timeout=40 --with-xunit" />
+      <option name="PARAMETERS" value="tests/face_page.py --processes=3 --process-timeout=40 --with-xunit --xunit-file=report/nosetests.xml" />
       <RunnerSettings RunnerId="PyDebugRunner" />
       <RunnerSettings RunnerId="PythonRunner" />
       <ConfigurationWrapper RunnerId="PyDebugRunner" />
@@ -426,7 +413,7 @@
       <module name="grid" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../../env/bin/nosetests-3.3" />
-      <option name="PARAMETERS" value="tests/face_page.py  -v" />
+      <option name="PARAMETERS" value="tests/face_page.py  -v --with-xunit --xunit-file=report/nosetests.xml" />
       <RunnerSettings RunnerId="PythonRunner" />
       <ConfigurationWrapper RunnerId="PythonRunner" />
       <method />
@@ -455,11 +442,17 @@
       <ConfigurationWrapper RunnerId="PythonRunner" />
       <method />
     </configuration>
-    <list size="3">
+    <list size="4">
       <item index="0" class="java.lang.String" itemvalue="Python.nose_multy" />
       <item index="1" class="java.lang.String" itemvalue="Python.nose_single" />
       <item index="2" class="java.lang.String" itemvalue="Python tests.nose" />
+      <item index="3" class="java.lang.String" itemvalue="Python.entry_point" />
     </list>
+    <recent_temporary>
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="Python.entry_point" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
   <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false" SSL_PROTOCOLS="sslv3">
@@ -489,7 +482,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1440" height="874" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -497,11 +490,11 @@
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32891247" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.12195122" sideWeight="0.5265252" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.26923078" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17073171" sideWeight="0.6392573" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.38859415" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.4734748" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.36074272" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -521,41 +514,13 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="3" />
+      <option name="time" value="4" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../../env/lib/python3.3/site-packages/nose/case.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="345" column="0" selection-start="11377" selection-end="11377" vertical-scroll-proportion="11.747715" vertical-offset="672" max-vertical-offset="8337">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.3/lib/python3.3/configparser.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="953" column="0" selection-start="36606" selection-end="36606" vertical-scroll-proportion="0.0" vertical-offset="12534" max-vertical-offset="26670">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../env/lib/python3.3/site-packages/hamcrest/core/assert_that.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="4" selection-start="350" selection-end="350" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1428">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/logger.ini">
       <provider selected="true" editor-type-id="text-editor">
         <state line="42" column="25" selection-start="725" selection-end="725" vertical-scroll-proportion="0.0" vertical-offset="539" max-vertical-offset="1029">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_execfile.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="0" selection-start="1164" selection-end="1164" vertical-scroll-proportion="0.0" vertical-offset="359" max-vertical-offset="882">
           <folding />
         </state>
       </provider>
@@ -572,7 +537,7 @@
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="0" selection-start="1459" selection-end="1459" vertical-scroll-proportion="-0.0" vertical-offset="126" max-vertical-offset="273">
+        <state line="35" column="0" selection-start="18118" selection-end="18118" vertical-scroll-proportion="-0.0" vertical-offset="735" max-vertical-offset="882">
           <folding />
         </state>
       </provider>
@@ -584,19 +549,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/__init__.py">
+    <entry file="file://$PROJECT_DIR$/nosetests.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="0" selection-start="28" selection-end="28" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="147">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="126">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/face_page.py">
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_execfile.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="62" column="27" selection-start="1471" selection-end="1471" vertical-scroll-proportion="0.0" vertical-offset="427" max-vertical-offset="1428">
-          <folding>
-            <element signature="e#0#14#0" expanded="true" />
-          </folding>
+        <state line="36" column="0" selection-start="1164" selection-end="1164" vertical-scroll-proportion="0.0" vertical-offset="359" max-vertical-offset="882">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../env/lib/python3.3/site-packages/nose/util.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="373" column="0" selection-start="11181" selection-end="11181" vertical-scroll-proportion="0.0" vertical-offset="7499" max-vertical-offset="13692">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="0" selection-start="28" selection-end="28" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="147">
+          <folding />
         </state>
       </provider>
     </entry>
@@ -609,10 +586,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/nosetests.xml">
+    <entry file="file://$PROJECT_DIR$/tests/face_page.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="623">
-          <folding />
+        <state line="62" column="27" selection-start="1471" selection-end="1471" vertical-scroll-proportion="0.0" vertical-offset="427" max-vertical-offset="1428">
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/entry_point.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="0" selection-start="337" selection-end="337" vertical-scroll-proportion="0.37004405" vertical-offset="0" max-vertical-offset="454">
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
